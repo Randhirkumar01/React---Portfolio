@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+.title {
+  font-size: 3.75rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #ff0055;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01562em;
+}
+.title:hover {
+  color: transparent;
+  -webkit-text-stroke: 1px #00ffe5;
+  text-shadow: 0 0 10px #00ffe5;
+  transition: all 0.3s ease-in-out, -webkit-text-stroke 0.5s ease-in-out;
+}
+.hold {
+  color: transparent;
+  -webkit-text-stroke: 0.5px #00ffe5;
+}
+
+.profile {
+  width: 25vmax;
+  height: 25vmax;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ff0055;
+}
+.profile:hover {
+  cursor: crosshair;
+  box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0),
+    0 0 30px rgb(255, 0, 0);
+  transition: box-shadow 0.3s ease-in-out;
+}
