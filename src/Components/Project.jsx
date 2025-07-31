@@ -18,12 +18,14 @@ export default function project({ projects }) {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat"
               }}
-              className="p-4 rounded-lg w-[80%] h-[60vh] flex justify-between overflow-hidden"
+              className="p-4 rounded-lg w-[80%] flex justify-between overflow-hidden"
             >
-              <div className="left flex flex-col gap-4">
+              <div className="left flex flex-col gap-4 w-[50vmax] h-full">
                 <h2 className="title">{project.title}</h2>
-                <p className="text-gray-600 mb-8">{project.description}</p>
-                <span className="flex gap-8 ml-16">
+                <p className="w-[80%] text-justify text-[#0A0A0A] mb-8">
+                  {project.description}
+                </p>
+                <span className="flex gap-8 ml-16 pb-6">
                   <a
                     href={project.Repo}
                     target="_blank"

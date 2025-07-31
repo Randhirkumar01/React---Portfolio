@@ -23,7 +23,7 @@ function App() {
         scale: 1,
         duration: 4,
         ease: "elastic.out(0.5, 0.2)",
-        y: 0,
+        y: 0
       }
     );
 

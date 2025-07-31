@@ -12,7 +12,8 @@ export default function Projects() {
   const projects = [
     {
       title: "Movie Database",
-      description: "A movie database application using TMDB API.",
+      description:
+        "A movie database application using TMDB API. Search and explore movies, TV shows, and more. You can also watch trailers and get detailed information about each movie.",
       Repo: "https://github.com/Randhirkumar01/Movies-Website",
       link: "https://movies-website-smoky.vercel.app/",
       image: MoviesBG,
@@ -20,13 +21,14 @@ export default function Projects() {
     },
     {
       title: "E-commerce Store",
-      description: "A front-end e-commerce application using React and Redux.",
+      description:
+        "A front-end e-commerce application using React and Redux. It features product listings, a shopping cart, and user authentication. You can browse products, add them to your cart, and proceed to checkout.",
       link: "https://yourwebsite.com"
     },
     {
       title: "OBYS - Landing Page",
       description:
-        "A landing page for a fictional product, showcasing modern design.",
+        "A landing page for a fictional product, showcasing modern design. This is a fully animated landing page built with HTML, CSS, and JavaScript. It features smooth scrolling, hover effects, and responsive design.",
       link: "https://randhirkumar01.github.io/Obys/",
       Repo: "https://github.com/Randhirkumar01/Obys",
       image2: ObysBG,
@@ -35,7 +37,7 @@ export default function Projects() {
     {
       title: "Pill - Point",
       description:
-        " A pharmacy management system for tracking inventory and sales.",
+        " A pharmacy management system for tracking inventory and sales. It allows users to manage their pharmacy's stock, sales, and customer information.",
       link: "https://randhirkumar01.github.io/pharma-master/",
       Repo: "https://github.com/Randhirkumar01/pharma-master",
       image: PharmaBG,
@@ -44,7 +46,7 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description:
-        "Personal portfolio site built using HTML, CSS, and JavaScript with before and after effects.",
+        "Personal portfolio site built using HTML, CSS, and JavaScript with before and after effects. It showcases my skills, projects, and contact information. The site is fully responsive.",
       link: "https://randhirkumar01.github.io/Portfolio/",
       Repo: "https://github.com/Randhirkumar01/Portfolio",
       image: PortfolioBG,
