@@ -15,7 +15,7 @@ export default function Projects() {
     {
       title: "Movie Database",
       description:
-        "A movie database application using TMDB API. Search and explore movies, TV shows, and more. You can also watch trailers and get detailed information about each movie.",
+        "A movie database application using TMDB API. Search and explore movies, TV shows, and more. You can also watch trailers and get detailed information about each movie. **Note:-** Please use VPN to access the API.",
       Repo: "https://github.com/Randhirkumar01/Movies-Website",
       link: "https://movies-website-smoky.vercel.app/",
       image: MoviesBG,
@@ -24,7 +24,7 @@ export default function Projects() {
     {
       title: "E-commerce Store",
       description:
-        "A front-end e-commerce application using React and Redux. It features product listings, a shopping cart, and user authentication. You can browse products, add them to your cart, and proceed to checkout.",
+        "A front-end e-commerce application using React and Redux. It features product listings, add & delete products. You can browse products details and filter products. This happens only with local storage. **Note:-** This is a demo application i.e. the basic functionality of an e-commerce site.",
       Repo: "https://github.com/Randhirkumar01/E-Commerce-Store",
       image: Shop_BG,
       image2: Shop_BG2
@@ -32,7 +32,7 @@ export default function Projects() {
     {
       title: "OBYS - Landing Page",
       description:
-        "A landing page for a fictional product, showcasing modern design. This is a fully animated landing page built with HTML, CSS, and JavaScript. It features smooth scrolling, hover effects, and responsive design.",
+        "A landing page for a fictional product, showcasing modern design. This is a fully animated landing page built with HTML, CSS, and JavaScript. It features smooth scrolling, hover effects, and responsive design. ",
       link: "https://randhirkumar01.github.io/Obys/",
       Repo: "https://github.com/Randhirkumar01/Obys",
       image2: ObysBG,
@@ -41,7 +41,7 @@ export default function Projects() {
     {
       title: "Pill - Point",
       description:
-        " A pharmacy management system for tracking inventory and sales. It allows users to manage their pharmacy's stock, sales, and customer information.",
+        " A pharmacy management system for tracking inventory and sales. It allows users to manage their pharmacy's stock, sales, and customer information. This project is completed using XAMPP Server with PHP and MySQL. **Note:-** This is a group project during my college and I only deal with frontend.",
       link: "https://randhirkumar01.github.io/pharma-master/",
       Repo: "https://github.com/Randhirkumar01/pharma-master",
       image: PharmaBG,
