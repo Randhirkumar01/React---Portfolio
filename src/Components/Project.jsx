@@ -38,9 +38,12 @@ export default function project({ projects }) {
                   <a
                     href={project.link}
                     target="_blank"
-                    className="bg-[#9F00FF] w-fit text-white px-4 py-2 mt-4 hover:text-[#0A0A0A]
+                    // add className to the link
+                    className={`bg-[#9F00FF] w-fit text-white px-4 py-2 mt-4 hover:text-[#0A0A0A]
                   hover:bg-[#00F0FF] rounded-lg transition duration-300 ease-in-out shadow-lg
-                  shadow-[#9F00FF] hover:shadow-[#00F0FF]"
+                  shadow-[#9F00FF] hover:shadow-[#00F0FF] ${
+                    project.link ? "" : "cursor-not-allowed opacity-50"
+                  }`}
                   >
                     Live Demo <VscLiveShare className="inline-block ml-2" />
                   </a>

@@ -1,6 +1,8 @@
 import Project from "./Project";
 import MoviesBG from "../Assets/MoviesBG.png";
 import MoviesBG2 from "../Assets/MoviesBG2.png";
+import Shop_BG from "../Assets/E-comm_BG.png";
+import Shop_BG2 from "../Assets/E-comm_BG2.png";
 import ObysBG from "../Assets/ObysBG.png";
 import ObysBG2 from "../Assets/ObysBG2.png";
 import PharmaBG from "../Assets/PharmaBG.png";
@@ -23,7 +25,9 @@ export default function Projects() {
       title: "E-commerce Store",
       description:
         "A front-end e-commerce application using React and Redux. It features product listings, a shopping cart, and user authentication. You can browse products, add them to your cart, and proceed to checkout.",
-      link: "https://yourwebsite.com"
+      Repo: "https://github.com/Randhirkumar01/E-Commerce-Store",
+      image: Shop_BG,
+      image2: Shop_BG2
     },
     {
       title: "OBYS - Landing Page",
