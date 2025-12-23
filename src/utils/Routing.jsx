@@ -13,6 +13,7 @@ export default function Routing() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={"Page Not Found"} />
     </Routes>
   );
 }

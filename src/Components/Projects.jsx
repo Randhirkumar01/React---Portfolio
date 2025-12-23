@@ -1,4 +1,5 @@
 import Project from "./Project";
+
 import MoviesBG from "../Assets/MoviesBG.png";
 import MoviesBG2 from "../Assets/MoviesBG2.png";
 import Shop_BG from "../Assets/E-comm_BG.png";
@@ -15,47 +16,48 @@ export default function Projects() {
     {
       title: "Movie Database",
       description:
-        "A movie database application using TMDB API. Search and explore movies, TV shows, and more. You can also watch trailers and get detailed information about each movie. **Note:-** Please use VPN to access the API.",
+        "A movie database application using the TMDB API. Search and explore movies, TV shows, watch trailers, and view detailed information. Note: If you face API access issues, please use a VPN.",
       Repo: "https://github.com/Randhirkumar01/Movies-Website",
       link: "https://movies-website-smoky.vercel.app/",
       image: MoviesBG,
-      image2: MoviesBG2
+      image2: MoviesBG2,
     },
     {
       title: "E-commerce Store",
       description:
-        "A front-end e-commerce application using React and Redux. It features product listings, add & delete products. You can browse products details and filter products. This happens only with local storage. **Note:-** This is a demo application i.e. the basic functionality of an e-commerce site.",
+        "A front-end e-commerce application built with React and Redux. It supports product listings, add/delete functionality, and filtering. Data is handled using local storage. This is a demo project.",
       Repo: "https://github.com/Randhirkumar01/E-Commerce-Store",
+      link: "",
       image: Shop_BG,
-      image2: Shop_BG2
+      image2: Shop_BG2,
     },
     {
       title: "OBYS - Landing Page",
       description:
-        "A landing page for a fictional product, showcasing modern design. This is a fully animated landing page built with HTML, CSS, and JavaScript. It features smooth scrolling, hover effects, and responsive design. ",
-      link: "https://randhirkumar01.github.io/Obys/",
+        "A fully animated landing page built using HTML, CSS, and JavaScript. It includes smooth scrolling, hover effects, and a responsive layout.",
       Repo: "https://github.com/Randhirkumar01/Obys",
+      link: "https://randhirkumar01.github.io/Obys/",
+      image: ObysBG2,
       image2: ObysBG,
-      image: ObysBG2
     },
     {
-      title: "Pill - Point",
+      title: "Pill Point",
       description:
-        " A pharmacy management system for tracking inventory and sales. It allows users to manage their pharmacy's stock, sales, and customer information. This project is completed using XAMPP Server with PHP and MySQL. **Note:-** This is a group project during my college and I only deal with frontend.",
-      link: "https://randhirkumar01.github.io/pharma-master/",
+        "A pharmacy management system for inventory and sales tracking. Built using PHP, MySQL, and XAMPP. This was a group project, and my role focused on front-end development.",
       Repo: "https://github.com/Randhirkumar01/pharma-master",
+      link: "https://randhirkumar01.github.io/pharma-master/",
       image: PharmaBG,
-      image2: PharmaBG2
+      image2: PharmaBG2,
     },
     {
       title: "Portfolio Website",
       description:
-        "Personal portfolio site built using HTML, CSS, and JavaScript with before and after effects. It showcases my skills, projects, and contact information. The site is fully responsive.",
-      link: "https://randhirkumar01.github.io/Portfolio/",
+        "A personal portfolio website built with HTML, CSS, and JavaScript. It showcases skills, projects, and contact details with responsive design and interactive effects.",
       Repo: "https://github.com/Randhirkumar01/Portfolio",
+      link: "https://randhirkumar01.github.io/Portfolio/",
       image: PortfolioBG,
-      image2: PortfolioBG2
-    }
+      image2: PortfolioBG2,
+    },
   ];
 
   return (

@@ -7,54 +7,68 @@ import { IoCameraOutline } from "react-icons/io5";
 import Marquee from "react-fast-marquee";
 
 export default function Skills() {
-  var skill = [
+  const skills = [
     {
       icon: <FaJava />,
       title: "Java + DSA",
-      para: "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. Data Structures and Algorithms (DSA) is a crucial part of computer science that helps in solving complex problems efficiently.",
+      para:
+        "Java is a high-level, class-based, object-oriented programming language. Data Structures and Algorithms (DSA) help solve complex problems efficiently.",
     },
     {
       icon: <DiJavascript1 />,
       title: "JavaScript",
-      para: "JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has become a standard for creating interactive web pages and is an essential part of web applications.",
+      para:
+        "JavaScript is a high-level, dynamic programming language used to create interactive and dynamic web applications.",
     },
     {
       icon: <DiReact />,
       title: "React JS",
-      para: "React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can change data, without reloading the page.",
+      para:
+        "React is a JavaScript library for building fast, scalable, and interactive user interfaces.",
     },
     {
       icon: <SiTailwindcss />,
       title: "Tailwind CSS",
-      para: "Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build custom designs without having to leave your HTML.",
+      para:
+        "Tailwind CSS is a utility-first CSS framework for rapidly building custom designs.",
     },
     {
       icon: <DiBootstrap />,
       title: "Bootstrap",
-      para: "Bootstrap is a popular CSS framework that helps in designing responsive and mobile-first websites quickly and easily.",
+      para:
+        "Bootstrap is a responsive CSS framework for developing mobile-first websites.",
     },
     {
       icon: <CiMobile2 />,
       title: "Responsive Design",
-      para: "Responsive design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.",
+      para:
+        "Responsive design ensures web applications adapt smoothly to different screen sizes.",
     },
     {
       icon: <DiGithub />,
       title: "GitHub",
-      para: " GitHub is a web-based platform used for version control and collaboration. It allows developers to work together on projects from anywhere in the world.",
+      para:
+        "GitHub is a platform for version control and collaborative software development.",
     },
     {
       icon: <IoCameraOutline />,
       title: "Photography",
-      para: "Photography is the art of capturing and processing images using a camera. It involves various techniques and styles to create visually appealing photographs.",
-    }
+      para:
+        "Photography involves capturing moments creatively using composition and lighting techniques.",
+    },
   ];
 
   return (
-    <div className="w-[80%] h-[67.1vh] mx-auto flex items-center justify-center">
-      <Marquee speed={80} direction="left">
-        <Skill data={skill} />
-      </Marquee>
-    </div>
+    <section className="w-full min-h-[60vh] flex items-center justify-center">
+      <div className="w-[85%]">
+        <Marquee
+          speed={70}
+          pauseOnHover
+          gradient={false}
+        >
+          <Skill data={skills} />
+        </Marquee>
+      </div>
+    </section>
   );
 }
